@@ -18,7 +18,9 @@ const WeatherInfo = ({ weather, newTemp, newScale, celcius }) => {
         </div>
 
         <h3 className="container__tempe">
-          <span>{celcius ? newTemp?.celsius : newTemp?.fahrenheit} &deg;C</span>
+          <span>
+            {celcius ? newTemp?.celsius + " °C" : newTemp?.fahrenheit + " °F"}
+          </span>
         </h3>
 
         <h2 className="container__cloud">
