@@ -5,6 +5,8 @@ const WeatherInfo = ({ weather, newTemp, newScale, celcius }) => {
   return (
     <section className="container">
       <h1 className="container__title">Wheater App</h1>
+      <h1 className="container__title">Your place</h1>
+
       <h2 className="container__place">
         {weather?.name} , {weather?.sys.country}
       </h2>

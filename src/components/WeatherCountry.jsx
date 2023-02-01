@@ -42,7 +42,7 @@ const WeatherCountry = () => {
 
   return (
     <section className="containerC">
-      <h2 className="ContainerC__title">choose your place</h2>
+      <h2 className="ContainerC__title">choose a place</h2>
       <form onSubmit={handleonClick}>
         <div className="containerC__label">
           <label className="containerC__b" htmlFor="">
