@@ -3,7 +3,7 @@
   border: 5px solid blueviolet;
   border-radius: 12px;
   /* background-color: rgb(3, 3, 39); */
-  background-image: url("../public/rainy-day-behind-car-window.jpg");
+  background-image: url("/rainy-day-behind-car-window.jpg");
   background-repeat: no-repeat;
   background-position: -350px 0px;
   background-size: cover;

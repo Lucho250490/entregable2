@@ -27,7 +27,6 @@ const WeatherInfo = ({ weather, newTemp, newScale, celcius }) => {
 
         <ul className="container__lista">
           <li>
-            <i class="icofont-brand-soundcloud"></i> Wind speed:{" "}
             <span>{weather?.wind.speed}</span> m/s
           </li>
           <li>
