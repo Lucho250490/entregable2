@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  border: 5px solid blueviolet;
+  border-radius: 12px;
+  /* background-color: rgb(3, 3, 39); */
+  background-image: url("../public/seedling-new-baby-forest-spring.jpg");
+  background-repeat: no-repeat;
+  background-position: -20px 0px;
+  background-size: cover;
+  width: 400px;
+
+}
+
+.container__place {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+
+
+
+.container__title {
+  color: black;
+  margin-top: 40px;
+  font-size: 30px; 
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.container__center {
+  text-align: center;
+  padding: 0px;
+  
+}
+
+.container__cloud {
+  color:blueviolet;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+
+.container__tempe {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container__lista {
+  color: white;
+  text-decoration: dashed;
+  list-style: none;
+  padding: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+
+}
+
+.container__button  {
+
+  background-color: rgb(90, 9, 90);
+  border: 2px solid white;
+  border-radius: 12px;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 40px;
+}
+

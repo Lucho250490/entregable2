@@ -1,0 +1,23 @@
+.App { 
+
+  display: flex;
+  
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin: auto; 
+
+  justify-content: center;
+  
+
+}
+
+.App div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+

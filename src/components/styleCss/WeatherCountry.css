@@ -1,0 +1,126 @@
+.containerC {
+  position: relative;
+  border: 5px solid blueviolet;
+  border-radius: 12px;
+  /* background-color: rgb(3, 3, 39); */
+  background-image: url("../public/rainy-day-behind-car-window.jpg");
+  background-repeat: no-repeat;
+  background-position: -350px 0px;
+  background-size: cover;
+  width: 400px;
+
+}
+
+.ContainerC__title {
+  color: black;
+  margin-top: 40px;
+  font-size: 30px; 
+  text-align: center;
+  font-weight: bold;
+}
+
+.containerC__b {
+  color: black;
+  font-weight: bold;
+}
+
+.containerC__items{
+  
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.containerC__country {
+  border: none;
+  height: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 14px;
+}
+
+.containerC__label {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.containerC__button {
+  background-color: rgb(90, 9, 90);
+  border: 2px solid white;
+  border-radius: 12px;
+  color: #fff;
+
+}
+
+.container__n {
+  color:blueviolet;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+.containerC__name {
+  color: black;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0px;
+
+}
+
+.containerC__elements {
+  text-align: center;
+  padding: 0px;
+  
+  
+}
+
+.containerC__img {
+  width: 100%;
+  height: 100%;
+}
+
+.containerC__temp {
+  color: black;
+  font-size: 30px;
+}
+
+.container__list {
+  color: black;
+  text-decoration: dashed;
+  list-style: none;
+  padding: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
+
+}
+
+
+
+.containerC__ck  {
+
+  background-color: rgb(90, 9, 90);
+  border: 2px solid white;
+  border-radius: 12px;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 70px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
