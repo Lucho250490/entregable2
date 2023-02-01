@@ -31,7 +31,7 @@ const WeatherInfo = ({ weather, newTemp, newScale, celcius }) => {
 
         <ul className="container__lista">
           <li>
-            <span>{weather?.wind.speed}</span> m/s
+            Wind.speed <span>{weather?.wind.speed}</span> m/s
           </li>
           <li>
             Pressure: <span>{weather?.main.pressure}</span> hPa
